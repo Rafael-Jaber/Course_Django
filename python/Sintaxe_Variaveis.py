@@ -15,3 +15,22 @@ class MyClass():
 
         print(a)
         print(b)
+
+a = 15
+print(type(a))
+
+a = '15'
+print(type(a))
+
+a = 1.5
+print(type(a))
+
+a = ['Item 1', 'Item 2', 'Item 3']
+print(type(a))
+
+a = ('Item 1', 'Item 2', 'Item 3')
+print(type(a))
+
+a = {1: 'Fulano', 2: 'Beltrano'}
+print(type(a))
+
