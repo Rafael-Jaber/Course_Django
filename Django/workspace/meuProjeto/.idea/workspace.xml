@@ -61,7 +61,7 @@
           <entry key="clientes_cliente" value="3" />
           <entry key="clientes_cpf" value="1" />
           <entry key="clientes_telefone" value="1" />
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="py" value="11" />
           <entry key="sql" value="1" />
         </counts>
@@ -69,7 +69,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="5" />
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Python" value="11" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -77,13 +77,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="19" />
-          <entry key="html" value="542" />
+          <entry key="html" value="709" />
           <entry key="py" value="1145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="542" />
+          <entry key="HTML" value="709" />
           <entry key="Python" value="1145" />
           <entry key="Scratch" value="19" />
         </counts>
@@ -125,11 +125,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meus_templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="540">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meus_templates/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="85" selection-start-column="85" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +189,7 @@
         <option value="$PROJECT_DIR$/meuProjeto/views.py" />
         <option value="$PROJECT_DIR$/meus_templates/base.html" />
         <option value="$PROJECT_DIR$/meus_templates/index.html" />
+        <option value="$PROJECT_DIR$/meus_templates/footer.html" />
       </list>
     </option>
   </component>
@@ -411,8 +424,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meus_templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="540">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meus_templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="85" selection-start-column="85" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
