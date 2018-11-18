@@ -16,9 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import home
-from .views import clientes
-from .views import cliente_detalhe
-from .views import cliente_nome
+from clientes.views import clientes
+from clientes.views import cliente_detalhe
+from clientes.views import cliente_nome
 
 urlpatterns = [
     path('', home),
