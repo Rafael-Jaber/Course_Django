@@ -130,3 +130,6 @@ STATIC_ROOT = 'static_files'
 STATICFILES_DIRS = [
     'meus_staticos'
 ]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media_files'
