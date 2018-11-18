@@ -4,5 +4,10 @@ from django.shortcuts import render
 def home(request):
     sexo = 'h'
     nome = 'Aslam'
-    return render(request, 'index.html', {'sexo': sexo, 'nome': nome})
+    lista = [
+        {'nome': 'Rafael', 'sexo': 'm'},
+        {'nome': 'Fulano', 'sexo': 'i'},
+        {'nome': 'Brenda', 'sexo': 'f'}
+    ]
+    return render(request, 'index.html', {'sexo': sexo, 'nome': nome, 'lista': lista})
 

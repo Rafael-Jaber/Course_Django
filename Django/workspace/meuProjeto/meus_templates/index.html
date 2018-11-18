@@ -18,4 +18,20 @@
 {% else %}
 	Ola {{ nome }}
 {% endif %}
+
+<br/>
+<br/>
+<ul>
+{% for pessoa in lista %}
+
+	{% if pessoa.sexo == 'm' %}
+		<li>Ola senhor {{ pessoa.nome }}</li>
+	{% elif pessoa.sexo == 'f' %}
+		<li>Ola senhora {{ pessoa.nome }}</li>
+	{% else %}
+		<li>Ola {{ pessoa.nome }}</li>
+	{% endif %}
+
+{% endfor %}
+</ul>
 </html>
