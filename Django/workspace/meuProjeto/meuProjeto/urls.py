@@ -17,9 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from .views import home
 from .views import clientes
+from .views import cliente_detalhe
+from .views import cliente_nome
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', home),
-    path('clientes/', clientes)
+    path('clientes/', clientes),
+    path('cliente/<int:id>', cliente_detalhe),
+    path('cliente/<str:nome>', cliente_nome),
+    path('admin/', admin.site.urls)
 ]
