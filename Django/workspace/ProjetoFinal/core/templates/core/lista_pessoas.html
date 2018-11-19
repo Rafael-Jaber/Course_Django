@@ -1,0 +1,19 @@
+<h2>Lista pessoas</h2>
+
+
+<ul>
+{% for pessoas in pessoas %}
+	<li>
+		<a href="{% url 'core_pessoa_update' pessoas.id %}">{{ pessoas.nome }}</a>
+	</li>
+{% endfor %}
+</ul>
+
+
+<form action="{% url 'core_lista_veiculo_novo' %}" method="POST">
+	{% csrf_token %}
+
+	{{ form.as_p }}
+
+	<button type="submit">Cadastrar</button>
+</form>

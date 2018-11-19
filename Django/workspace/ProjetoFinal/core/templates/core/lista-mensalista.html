@@ -1,0 +1,16 @@
+<h2>Lista Mensalista</h2>
+
+
+<ul>
+{% for mov in mov_men %}
+	<li>{{ mov.veiculo.marca }} - {{ mov.veiculo.placa }} - {{ mov.checkin }}</li>
+{% endfor %}
+</ul>
+
+<form action="{% url 'core_lista_mensalista_novo' %}" method="POST">
+	{% csrf_token %}
+
+	{{ form.as_p }}
+
+	<button type="submit">Cadastrar</button>
+</form>
